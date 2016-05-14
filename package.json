@@ -1,0 +1,19 @@
+{
+  "name": "moviesearch",
+  "version": "1.0.0",
+  "description": "Search movie with JS",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henry Arbolaez",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.4",
+    "gulp-watch": "^4.3.5"
+  }
+}

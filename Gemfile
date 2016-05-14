@@ -9,8 +9,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
-gem 'sdoc', '~> 0.4.0', group: :doc
+# Style
+gem 'materialize-sass'
 
+
+gem 'sdoc', '~> 0.4.0', group: :doc
 # Utilities
 gem 'haml'
 gem 'better_errors', '~> 2.1', '>= 2.1.1'
@@ -24,4 +27,3 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
-
