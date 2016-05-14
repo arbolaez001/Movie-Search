@@ -1,11 +1,9 @@
-%select#selectpicker{:name => ""}
-  %option{:value => ""} Search
-  %option{:value => ""} Title
-  %option{:value => ""} Year
+%h1.center-align.flow-text Search
+.row
+  .input-field.col.s6.offset-s3
+    %input.validate{:type => "text"}
+    %label.activefor Search Movie
 
-.search.m-t-5
-  %h4.display-4.text-xs-center Search
-  %input#search.form-control
 #omdb.m-t-2.container-fluid
   .grid
     .row
